@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+header{
+  min-height: 70px;
+  background-color: #69ADAD;
+}
+nav {
+  margin: auto;
+  max-width: 100%;
+  height: 50px;
+  /* padding-top: 15px; */
+  text-align: center;
+}
+.topNav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+.topNav > a {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 26px;
+}
+.topNav > a:first-child{
+  font-size: 30px;
+}
+.topNav > a:hover {
+  border-bottom: 2px solid white;
+}
+.topNav > a > img {
+  height: 1.75rem;
+  color: white;
+}
+.topNav .icon{
+  display: none;
+}
+
+.container {
+  width: 75%;
+  /* height: 100vh; */
+  margin: 0 auto;
+  margin-top: 50px;
+  /* margin-bottom: 5%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video {
+  position: relative;
+
+  width: 100%;
+  padding-top: 56.25%;
+  background-color: grey;
+}
+.video iframe{
+ position: absolute;
+ top: 0;
+ right: 0;
+ left: 0;
+ bottom: 0;
+ width: 100%;
+ height: 100%;
+}
+
+.description{
+  margin-top: 50px;
+  /* background-color: #69ADAD; */
+  color: white;
+  font-size: 26px;
+}
+.description div p{
+  background-color: #69ADAD;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.right__text{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  /* padding-right: 30px; */
+  /* width: 60%; */
+
+  display: flex;
+  justify-content: flex-end;  
+}
+.left__text{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  /* padding-left: 30px; */
+  display: flex;
+  justify-content: flex-start;  
+  width: 60%;
+}
+
+.example{
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  
+}
+.example img{
+  height: 500px;
+}
+
+.downLink{
+  display: flex;
+  justify-content: center;
+}
+.downLink a{
+  margin-top: 40px;
+  margin-bottom: 65px;
+  padding: 80px 120px;
+  color: white;
+  font-size: 30px;
+
+  background: #69ADAD;
+  border-radius: 75px;  
+}
+
+footer{
+  width: 100%;
+  height: auto;
+  background: #69ADAD;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 15px;
+}
+footer a{
+  color: white;
+  font-size: 20px;
+  margin-left: 10px;
+}
+footer nav a:hover{
+  border-bottom: 2px solid white;
+}
+.social{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.social a{
+  padding: 0px 5px;
+}
+.social a:hover{
+  border-bottom: 2px solid white;
+}
+.social__icon_doggo img{
+  height: 2.75rem !important;
+}
