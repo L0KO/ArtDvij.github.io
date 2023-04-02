@@ -56,7 +56,7 @@ nav {
 }
 
 .container {
-  width: 75%;
+  width: 60%;
   /* height: 100vh; */
   margin: 0 auto;
   margin-top: 50px;
@@ -103,6 +103,7 @@ height: 100%;
   /* background-color: #69ADAD; */
   color: white;
   font-size: 26px;
+  padding: 0px 7% 0px 7%;
 }
 .description p{
   background-color: #69ADAD;
@@ -126,6 +127,9 @@ height: 100%;
 
   max-width: 60%;
 }
+.right__text p{
+  border-radius: 20px 15px 50px 20px;
+}
 .left__text{
   margin-top: 40px;
   margin-bottom: 40px;
@@ -134,13 +138,16 @@ height: 100%;
   justify-content: flex-start;  
   max-width: 60%;
 }
+.left__text p{
+  border-radius: 15px 20px 20px 50px;
+}
 
 .example{
   margin-top: 25px;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  
+  padding: 0px 7% 0px 7%;
 }
 .example img{
   height: 500px;
@@ -149,16 +156,17 @@ height: 100%;
 .downLink{
   display: flex;
   justify-content: center;
+  padding: 0px 7% 0px 7%;
 }
 .downLink a{
-  margin-top: 40px;
+  margin-top: 60px;
   margin-bottom: 65px;
-  padding: 80px 120px;
+  padding: 60px 80px;
   color: white;
   font-size: 30px;
 
   background: #69ADAD;
-  border-radius: 75px;  
+  border-radius: 75px;
 }
 
 footer{
